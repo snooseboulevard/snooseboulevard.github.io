@@ -9,7 +9,6 @@ body {
 	color: rgba(0,0,0,0.7);
 	font-family: sans-serif;
 	line-height: 1.4em;
-	padding: 1em;
 }
 
 h1, h2, h3 {
@@ -53,7 +52,7 @@ b {
 header {
 	width:100%;
 	height:400px;
-	background-image:url(snooseBoulevard1.jpg);
+	background-image:url(snooseboulevard1.jpg);
 	vertical-align:top;
 	padding-top: 1em;
 }
@@ -95,7 +94,7 @@ sub{
 	white-space:pre;
 }
 
-.nav li{
+#nav li{
 	text-align:center;
 	display:inline-block;
 	font-size:25px;
@@ -103,6 +102,10 @@ sub{
 	padding:10px;
 }
 
+#wrapper {
+	margin: 0 auto;
+	max-width: 50em;
+}
 /*
 #mainMenu {
 	margin:10px;
