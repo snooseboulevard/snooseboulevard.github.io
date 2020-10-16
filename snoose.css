@@ -7,11 +7,13 @@
 
 body {
 	color: rgba(0,0,0,0.7);
-	font-family: sans-serif;
-	line-height: 1.4em;
+	font-family: Georgia,"Times New Roman",Times,serif;
+	font-size: 18px;
+	line-height: 1.75em;
 }
 
 h1, h2, h3 {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
 	font-weight: bold;
 }
 
@@ -45,8 +47,17 @@ ol, ul {
 	margin-bottom: 0.8em;
 }
 
-b {
-	font-weight:bold;
+b, strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+dt {
+	font-weight: bold;
+	margin-top: .8em;
 }
 
 .masthead {
@@ -121,14 +132,14 @@ sub{
 #nav li{
 	text-align:center;
 	display:inline-block;
-	font-size:25px;
+	font-size:20px;
 	margin-top: 0.8em;
 	padding:10px;
 }
 
 #wrapper {
 	margin: 0 auto;
-	max-width: 50em;
+	width: 40em;
 }
 /*
 #mainMenu {
