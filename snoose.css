@@ -130,9 +130,9 @@ sub{
 	text-align:center;
 }
 
-.song{
-	font-style:italic;
-	white-space:pre;
+.song p {
+	font-style: italic;
+	white-space: pre;
 }
 
 #nav li{
