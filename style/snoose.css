@@ -24,6 +24,12 @@ h2 {
 	font-size: 1.2em;
 }
 
+/* Layout */
+#wrapper {
+	box-sizing: content-box;
+	max-width: 740px;
+	padding: 3.5em 1.75em 0;
+}
 p {
 	margin-bottom: .8em;
 }
@@ -142,19 +148,6 @@ sub {
 .song p {
 	font-style: italic;
 	white-space: pre;
-}
-
-/*nav a {
-	display: inline-block;
-	font-size: 20px;
-	margin-top: 0.8em;
-	padding: 10px;
-	text-align: center;
-}
-*/
-#wrapper {
-	margin: 0 auto;
-	width: 40em;
 }
 
 .pic {
